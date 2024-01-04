@@ -1,0 +1,39 @@
+body {
+    background-color: #e2e2e2;
+}
+
+canvas {
+    width : 800px;
+    height: 800px;
+    background-color: white;
+    border: 3px solid #464646;
+}
+
+div{
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input {
+    width: 200px;
+}
+
+.btnWrap{
+    display: flex;
+}
+
+.radio {
+    width: 20px;
+    height: 20px;
+}
